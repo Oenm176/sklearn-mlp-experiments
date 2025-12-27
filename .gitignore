@@ -1,0 +1,57 @@
+# ========================
+# 1. Python & System Junk
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================
+# 2. Virtual Environments
+# ========================
+# Sangat penting agar library di laptopmu tidak ikut terupload
+venv/
+env/
+.env/
+.venv/
+list_lr/ 
+
+# ========================
+# 3. Jupyter Notebooks
+# ========================
+# Mengabaikan file auto-save / checkpoint notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ========================
+# 4. Editor / IDE Settings
+# ========================
+.vscode/
+.idea/
+*.swp
+
+# ========================
+# 5. OS Specific Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# 6. Large Data Files (Optional)
+# ========================
+# GitHub menolak file >100MB.
+# Jika datasetmu kecil (<50MB), biarkan bagian ini.
+# Jika datasetmu besar, uncomment baris di bawah ini:
+# data/*.csv
+# data/*.xlsx
+
+# ========================
+# 7. Local Secrets (API Keys)
+# ========================
+.env
+api_key.txt
+
+# ========================
+# 8. Specific Project Folders
+# ========================
+materi_mlp/
